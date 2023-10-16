@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Formulários</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm teste">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/game-logo.png" width="100" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Jogos Diversos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Consoles
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">PS4</a></li>
+                                <li><a class="dropdown-item" href="#">PS5</a></li>
+                                <li><a class="dropdown-item" href="#">Xbox</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" aria-disabled="true">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="formulario.html" aria-disabled="true">Cadastre-se</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search" method="" action="">
+                        <input class="form-control me-2" type="search" placeholder="Digite sua pesquisa"
+                            aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carousel.png" class="d-block w-100" alt="carousel">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-success">Jogos Retrô</h5>
+                            <p class="text-success">Uma pausa para a nostaugia.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carrossel2.jpg" class="d-block w-100" alt="carrossel2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Campeonatos Online</h5>
+                            <p class="">Chame a turma e divirtam-se.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carrossel3.png" class="d-block w-100" alt="carrossel3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-success">Os melhores dos mundo</h5>
+                            <p class="text-success">Faça parte dessa lista.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <div class="card" style="background-color: #3d405b; padding: 50px;">
+        <footer class="text-center ">
+            <p class="text-light">Letícia Oliveira do Nascimento | SENAI Taguatinga</p>
+            <p class="fs-6 text-light">Todos os direitos reservados</p>
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

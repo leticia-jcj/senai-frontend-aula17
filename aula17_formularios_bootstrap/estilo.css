@@ -1,0 +1,19 @@
+:root {
+    --color-background: #27a38b;
+}
+
+.teste {
+    background-color: var(--color-background);
+}
+
+section img {
+    height: 70vh;
+    object-fit: cover;
+
+}
+
+/* formatação formulário */
+
+.formulario {
+    height: 70vh;
+}
